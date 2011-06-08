@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F9A9903139F7FEE00629C53 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9A9902139F7FEE00629C53 /* Cocoa.framework */; };
+		4F9A9905139F7FEE00629C53 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9A9904139F7FEE00629C53 /* MacRuby.framework */; };
+		4F9A990C139F7FEE00629C53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F9A990A139F7FEE00629C53 /* InfoPlist.strings */; };
+		4F9A990F139F7FEE00629C53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9A990E139F7FEE00629C53 /* main.m */; };
+		4F9A9913139F7FEE00629C53 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F9A9911139F7FEE00629C53 /* MainMenu.xib */; };
+		4F9A9916139F7FEE00629C53 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F9A9915139F7FEE00629C53 /* rb_main.rb */; };
+		4F9A9918139F7FEE00629C53 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F9A9917139F7FEE00629C53 /* AppDelegate.rb */; };
+		4F9A991B139F7FEE00629C53 /* osx_deluge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F9A9919139F7FEE00629C53 /* osx_deluge.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F9A98FE139F7FEE00629C53 /* osx-deluge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "osx-deluge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9A9902139F7FEE00629C53 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4F9A9904139F7FEE00629C53 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		4F9A9909139F7FEE00629C53 /* osx-deluge-Info.plist */ = {isa = PBXFileReference; path = "osx-deluge-Info.plist"; sourceTree = "<group>"; };
+		4F9A990B139F7FEE00629C53 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F9A990D139F7FEE00629C53 /* osx-deluge-Prefix.pch */ = {isa = PBXFileReference; path = "osx-deluge-Prefix.pch"; sourceTree = "<group>"; };
+		4F9A990E139F7FEE00629C53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F9A9912139F7FEE00629C53 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4F9A9915139F7FEE00629C53 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		4F9A9917139F7FEE00629C53 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		4F9A991A139F7FEE00629C53 /* osx_deluge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = osx_deluge.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F9A98FB139F7FEE00629C53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9A9903139F7FEE00629C53 /* Cocoa.framework in Frameworks */,
+				4F9A9905139F7FEE00629C53 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F9A98F3139F7FEE00629C53 = {
+			isa = PBXGroup;
+			children = (
+				4F9A9907139F7FEE00629C53 /* osx-deluge */,
+				4F9A9901139F7FEE00629C53 /* Frameworks */,
+				4F9A98FF139F7FEE00629C53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F9A98FF139F7FEE00629C53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F9A98FE139F7FEE00629C53 /* osx-deluge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F9A9901139F7FEE00629C53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F9A9902139F7FEE00629C53 /* Cocoa.framework */,
+				4F9A9904139F7FEE00629C53 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F9A9907139F7FEE00629C53 /* osx-deluge */ = {
+			isa = PBXGroup;
+			children = (
+				4F9A9917139F7FEE00629C53 /* AppDelegate.rb */,
+				4F9A9919139F7FEE00629C53 /* osx_deluge.xcdatamodeld */,
+				4F9A9910139F7FEE00629C53 /* Resources */,
+				4F9A9914139F7FEE00629C53 /* Other Sources */,
+				4F9A9908139F7FEE00629C53 /* Supporting Files */,
+			);
+			path = "osx-deluge";
+			sourceTree = "<group>";
+		};
+		4F9A9908139F7FEE00629C53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F9A9909139F7FEE00629C53 /* osx-deluge-Info.plist */,
+				4F9A990A139F7FEE00629C53 /* InfoPlist.strings */,
+				4F9A990D139F7FEE00629C53 /* osx-deluge-Prefix.pch */,
+				4F9A990E139F7FEE00629C53 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F9A9910139F7FEE00629C53 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F9A9911139F7FEE00629C53 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4F9A9914139F7FEE00629C53 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4F9A9915139F7FEE00629C53 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		4F9A9906139F7FEE00629C53 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 4F9A9921139F7FEE00629C53 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		4F9A98FD139F7FEE00629C53 /* osx-deluge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9A991E139F7FEE00629C53 /* Build configuration list for PBXNativeTarget "osx-deluge" */;
+			buildPhases = (
+				4F9A98FA139F7FEE00629C53 /* Sources */,
+				4F9A98FB139F7FEE00629C53 /* Frameworks */,
+				4F9A98FC139F7FEE00629C53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "osx-deluge";
+			productName = "osx-deluge";
+			productReference = 4F9A98FE139F7FEE00629C53 /* osx-deluge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F9A98F5139F7FEE00629C53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = AP;
+			};
+			buildConfigurationList = 4F9A98F8139F7FEE00629C53 /* Build configuration list for PBXProject "osx-deluge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F9A98F3139F7FEE00629C53;
+			productRefGroup = 4F9A98FF139F7FEE00629C53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F9A98FD139F7FEE00629C53 /* osx-deluge */,
+				4F9A9906139F7FEE00629C53 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F9A98FC139F7FEE00629C53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9A990C139F7FEE00629C53 /* InfoPlist.strings in Resources */,
+				4F9A9913139F7FEE00629C53 /* MainMenu.xib in Resources */,
+				4F9A9916139F7FEE00629C53 /* rb_main.rb in Resources */,
+				4F9A9918139F7FEE00629C53 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F9A98FA139F7FEE00629C53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9A990F139F7FEE00629C53 /* main.m in Sources */,
+				4F9A991B139F7FEE00629C53 /* osx_deluge.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F9A990A139F7FEE00629C53 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F9A990B139F7FEE00629C53 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4F9A9911139F7FEE00629C53 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F9A9912139F7FEE00629C53 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F9A991C139F7FEE00629C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4F9A991D139F7FEE00629C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4F9A991F139F7FEE00629C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osx-deluge/osx-deluge-Prefix.pch";
+				INFOPLIST_FILE = "osx-deluge/osx-deluge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4F9A9920139F7FEE00629C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osx-deluge/osx-deluge-Prefix.pch";
+				INFOPLIST_FILE = "osx-deluge/osx-deluge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4F9A9922139F7FEE00629C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4F9A9923139F7FEE00629C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F9A98F8139F7FEE00629C53 /* Build configuration list for PBXProject "osx-deluge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9A991C139F7FEE00629C53 /* Debug */,
+				4F9A991D139F7FEE00629C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F9A991E139F7FEE00629C53 /* Build configuration list for PBXNativeTarget "osx-deluge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9A991F139F7FEE00629C53 /* Debug */,
+				4F9A9920139F7FEE00629C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F9A9921139F7FEE00629C53 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9A9922139F7FEE00629C53 /* Debug */,
+				4F9A9923139F7FEE00629C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4F9A9919139F7FEE00629C53 /* osx_deluge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4F9A991A139F7FEE00629C53 /* osx_deluge.xcdatamodel */,
+			);
+			currentVersion = 4F9A991A139F7FEE00629C53 /* osx_deluge.xcdatamodel */;
+			path = osx_deluge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4F9A98F5139F7FEE00629C53 /* Project object */;
+}
