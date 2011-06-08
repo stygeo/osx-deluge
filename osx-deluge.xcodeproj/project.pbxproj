@@ -21,9 +21,9 @@
 		4F9A98FE139F7FEE00629C53 /* osx-deluge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "osx-deluge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9A9902139F7FEE00629C53 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4F9A9904139F7FEE00629C53 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
-		4F9A9909139F7FEE00629C53 /* osx-deluge-Info.plist */ = {isa = PBXFileReference; path = "osx-deluge-Info.plist"; sourceTree = "<group>"; };
+		4F9A9909139F7FEE00629C53 /* osx-deluge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "osx-deluge-Info.plist"; sourceTree = "<group>"; };
 		4F9A990B139F7FEE00629C53 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4F9A990D139F7FEE00629C53 /* osx-deluge-Prefix.pch */ = {isa = PBXFileReference; path = "osx-deluge-Prefix.pch"; sourceTree = "<group>"; };
+		4F9A990D139F7FEE00629C53 /* osx-deluge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "osx-deluge-Prefix.pch"; sourceTree = "<group>"; };
 		4F9A990E139F7FEE00629C53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F9A9912139F7FEE00629C53 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4F9A9915139F7FEE00629C53 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
