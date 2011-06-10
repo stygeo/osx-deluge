@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F16C22513A2D40300A288C7 /* ConfigurationController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F16C22413A2D40300A288C7 /* ConfigurationController.rb */; };
+		4F32D68813A2E06F001129F7 /* ConnectionManager.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F32D68713A2E06F001129F7 /* ConnectionManager.rb */; };
+		4F32D68C13A2E1B9001129F7 /* connection_configuration_view.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F32D68B13A2E1B9001129F7 /* connection_configuration_view.rb */; };
 		4F9A9903139F7FEE00629C53 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9A9902139F7FEE00629C53 /* Cocoa.framework */; };
 		4F9A9905139F7FEE00629C53 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9A9904139F7FEE00629C53 /* MacRuby.framework */; };
 		4F9A990C139F7FEE00629C53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F9A990A139F7FEE00629C53 /* InfoPlist.strings */; };
@@ -15,9 +18,13 @@
 		4F9A9916139F7FEE00629C53 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F9A9915139F7FEE00629C53 /* rb_main.rb */; };
 		4F9A9918139F7FEE00629C53 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F9A9917139F7FEE00629C53 /* AppDelegate.rb */; };
 		4F9A991B139F7FEE00629C53 /* osx_deluge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F9A9919139F7FEE00629C53 /* osx_deluge.xcdatamodeld */; };
+		4FBD448813A2B63D00A76D48 /* Configuration.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FBD448713A2B63D00A76D48 /* Configuration.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F16C22413A2D40300A288C7 /* ConfigurationController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ConfigurationController.rb; sourceTree = "<group>"; };
+		4F32D68713A2E06F001129F7 /* ConnectionManager.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ConnectionManager.rb; sourceTree = "<group>"; };
+		4F32D68B13A2E1B9001129F7 /* connection_configuration_view.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = connection_configuration_view.rb; sourceTree = "<group>"; };
 		4F9A98FE139F7FEE00629C53 /* osx-deluge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "osx-deluge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9A9902139F7FEE00629C53 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4F9A9904139F7FEE00629C53 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
@@ -29,6 +36,7 @@
 		4F9A9915139F7FEE00629C53 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		4F9A9917139F7FEE00629C53 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
 		4F9A991A139F7FEE00629C53 /* osx_deluge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = osx_deluge.xcdatamodel; sourceTree = "<group>"; };
+		4FBD448713A2B63D00A76D48 /* Configuration.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Configuration.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F32D68A13A2E19E001129F7 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				4F32D68B13A2E1B9001129F7 /* connection_configuration_view.rb */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
 		4F9A98F3139F7FEE00629C53 = {
 			isa = PBXGroup;
 			children = (
@@ -73,7 +89,10 @@
 		4F9A9907139F7FEE00629C53 /* osx-deluge */ = {
 			isa = PBXGroup;
 			children = (
+				4F32D68A13A2E19E001129F7 /* views */,
 				4F9A9917139F7FEE00629C53 /* AppDelegate.rb */,
+				4F16C22413A2D40300A288C7 /* ConfigurationController.rb */,
+				4F32D68713A2E06F001129F7 /* ConnectionManager.rb */,
 				4F9A9919139F7FEE00629C53 /* osx_deluge.xcdatamodeld */,
 				4F9A9910139F7FEE00629C53 /* Resources */,
 				4F9A9914139F7FEE00629C53 /* Other Sources */,
@@ -97,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				4F9A9911139F7FEE00629C53 /* MainMenu.xib */,
+				4FBD448713A2B63D00A76D48 /* Configuration.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -180,6 +200,10 @@
 				4F9A9913139F7FEE00629C53 /* MainMenu.xib in Resources */,
 				4F9A9916139F7FEE00629C53 /* rb_main.rb in Resources */,
 				4F9A9918139F7FEE00629C53 /* AppDelegate.rb in Resources */,
+				4FBD448813A2B63D00A76D48 /* Configuration.xib in Resources */,
+				4F16C22513A2D40300A288C7 /* ConfigurationController.rb in Resources */,
+				4F32D68813A2E06F001129F7 /* ConnectionManager.rb in Resources */,
+				4F32D68C13A2E1B9001129F7 /* connection_configuration_view.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +336,7 @@
 				4F9A9920139F7FEE00629C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F9A9921139F7FEE00629C53 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -320,6 +345,7 @@
 				4F9A9923139F7FEE00629C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
