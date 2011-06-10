@@ -5,8 +5,6 @@
 #  Created by Jeffrey Wilcke on 6/8/11.
 #  Copyright 2011 AP. All rights reserved.
 #
-require 'ConfigurationController'
-require 'ConnectionManager'
 
 class AppDelegate < NSWindowController
   # Delegate attrs
