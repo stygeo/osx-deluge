@@ -33,11 +33,11 @@ class ConfigurationController < NSWindowController
   def test_connection sender
     # Test connection
     if connection_manager.test_connection
-      server_view.test_status.stringValue = "Connection accepted"
+      server_view.status_label.stringValue = "Connection accepted"
     else
-      server_view.test_status.stringValue = "Connection refused"
+      server_view.status_label.stringValue = "Connection refused"
     end
     
-    server_view.test_status.setHidden false
+    server_view.status_label.setHidden false
   end
 end

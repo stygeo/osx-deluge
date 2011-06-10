@@ -7,5 +7,5 @@
 #
 
 class ConnectionConfigurationView < NSView
-  attr_accessor :test_status
+  attr_accessor :status_label
 end
