@@ -8,13 +8,18 @@
 
 class AppDelegate < NSWindowController
   # Delegate attrs
-  attr_accessor :window
+  attr_accessor :window, :actual_window
   # Controllers
   attr_accessor :configuration_controller
   # Props
   attr_accessor :connection_manager
   
   def applicationDidFinishLaunching(notification)
+    # Wut?
+    @actual_window = window.window
+    # Set the toolbar
+    set_bottom_toolbar
+    
     @connection_manager = ConnectionManager.new
     
     @configuration_controller = ConfigurationController.new
@@ -24,6 +29,11 @@ class AppDelegate < NSWindowController
   def load_configuration sender
     @configuration_controller.showWindow self
     @configuration_controller.show_general nil
+  end
+  
+  protected
+  def set_bottom_toolbar
+    actual_window.setContentBorderThickness 23.0, forEdge:NSMinYEdge
   end
 end
 
