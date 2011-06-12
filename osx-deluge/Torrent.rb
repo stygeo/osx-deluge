@@ -7,6 +7,22 @@
 #
 
 module Deluge
+  class TorrentRelation
+    attr_accessor :torrents
+    
+    def method_missing method, *args
+      torrents.__send__ method, *args
+    end
+    
+    def all
+      
+    end
+    
+    def create
+      # Create new torrent
+    end
+  end
+  
   class DelugeTorrent
     
   end

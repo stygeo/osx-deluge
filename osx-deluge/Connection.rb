@@ -42,5 +42,16 @@ module Deluge
     def success?
       return @state
     end
+    
+    def destroy
+      # Kill connection
+    end
+    
+    
+    # Torrent actions
+    # Fetch all torrents on the connection
+    def torrents options = {}
+      
+    end
   end
 end
