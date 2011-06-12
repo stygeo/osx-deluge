@@ -33,7 +33,7 @@ class AppDelegate < NSWindowController
   
   protected
   def set_window_style
-    
+    actual_window.titleBarHeight = 40.0;
     
     actual_window.setContentBorderThickness 50.0, forEdge:NSMinYEdge
   end
