@@ -1,5 +1,5 @@
 #
-#  Deluge.rb
+#  TorrentManager.rb
 #  osx-deluge
 #
 #  Created by Jeffrey Wilcke on 6/12/11.
@@ -7,7 +7,7 @@
 #
 
 module Deluge
-  class Deluge
+  class DelugeTorrentManager
 
   end
 end

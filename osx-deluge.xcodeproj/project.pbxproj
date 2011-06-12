@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		4F16C22513A2D40300A288C7 /* ConfigurationController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F16C22413A2D40300A288C7 /* ConfigurationController.rb */; };
 		4F21D5F513A4D1B400FD7C35 /* INAppStoreWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F21D5F413A4D1B400FD7C35 /* INAppStoreWindow.m */; };
-		4F21D5F813A4D35A00FD7C35 /* Deluge.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F21D5F713A4D35A00FD7C35 /* Deluge.rb */; };
 		4F21D5FA13A4D47300FD7C35 /* Exception.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F21D5F913A4D47300FD7C35 /* Exception.rb */; };
-		4F21D5FC13A4D4B000FD7C35 /* Connection.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F21D5FB13A4D4B000FD7C35 /* Connection.rb */; };
 		4F21D5FE13A4D93800FD7C35 /* state.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F21D5FD13A4D93800FD7C35 /* state.rb */; };
+		4F21D60413A4E09200FD7C35 /* Connection.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F21D60313A4E09200FD7C35 /* Connection.rb */; };
+		4F21D60613A4E13F00FD7C35 /* Torrent.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F21D60513A4E13F00FD7C35 /* Torrent.rb */; };
+		4F21D60A13A4E23600FD7C35 /* DelugeConnectionManager.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F21D60913A4E23600FD7C35 /* DelugeConnectionManager.rb */; };
+		4F21D60C13A4E25900FD7C35 /* TorrentManager.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F21D60B13A4E25900FD7C35 /* TorrentManager.rb */; };
+		4F21D60E13A4E27400FD7C35 /* Deluge.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F21D60D13A4E27400FD7C35 /* Deluge.rb */; };
 		4F32D68813A2E06F001129F7 /* ConnectionManager.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F32D68713A2E06F001129F7 /* ConnectionManager.rb */; };
 		4F32D68C13A2E1B9001129F7 /* connection_configuration_view.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F32D68B13A2E1B9001129F7 /* connection_configuration_view.rb */; };
 		4F32D69713A3DD2C001129F7 /* menu_view.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F32D69613A3DD2C001129F7 /* menu_view.rb */; };
@@ -31,10 +34,13 @@
 		4F16C22413A2D40300A288C7 /* ConfigurationController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ConfigurationController.rb; sourceTree = "<group>"; };
 		4F21D5F313A4D1B400FD7C35 /* INAppStoreWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAppStoreWindow.h; sourceTree = "<group>"; };
 		4F21D5F413A4D1B400FD7C35 /* INAppStoreWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INAppStoreWindow.m; sourceTree = "<group>"; };
-		4F21D5F713A4D35A00FD7C35 /* Deluge.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Deluge.rb; sourceTree = "<group>"; };
 		4F21D5F913A4D47300FD7C35 /* Exception.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Exception.rb; sourceTree = "<group>"; };
-		4F21D5FB13A4D4B000FD7C35 /* Connection.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Connection.rb; sourceTree = "<group>"; };
 		4F21D5FD13A4D93800FD7C35 /* state.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = state.rb; sourceTree = "<group>"; };
+		4F21D60313A4E09200FD7C35 /* Connection.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Connection.rb; sourceTree = "<group>"; };
+		4F21D60513A4E13F00FD7C35 /* Torrent.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Torrent.rb; sourceTree = "<group>"; };
+		4F21D60913A4E23600FD7C35 /* DelugeConnectionManager.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = DelugeConnectionManager.rb; sourceTree = "<group>"; };
+		4F21D60B13A4E25900FD7C35 /* TorrentManager.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = TorrentManager.rb; sourceTree = "<group>"; };
+		4F21D60D13A4E27400FD7C35 /* Deluge.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Deluge.rb; sourceTree = "<group>"; };
 		4F32D68713A2E06F001129F7 /* ConnectionManager.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ConnectionManager.rb; sourceTree = "<group>"; };
 		4F32D68B13A2E1B9001129F7 /* connection_configuration_view.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = connection_configuration_view.rb; sourceTree = "<group>"; };
 		4F32D69613A3DD2C001129F7 /* menu_view.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = menu_view.rb; sourceTree = "<group>"; };
@@ -77,10 +83,13 @@
 		4F32D68D13A3BC51001129F7 /* Deluge */ = {
 			isa = PBXGroup;
 			children = (
-				4F21D5F713A4D35A00FD7C35 /* Deluge.rb */,
 				4F21D5F913A4D47300FD7C35 /* Exception.rb */,
-				4F21D5FB13A4D4B000FD7C35 /* Connection.rb */,
 				4F21D5FD13A4D93800FD7C35 /* state.rb */,
+				4F21D60313A4E09200FD7C35 /* Connection.rb */,
+				4F21D60513A4E13F00FD7C35 /* Torrent.rb */,
+				4F21D60913A4E23600FD7C35 /* DelugeConnectionManager.rb */,
+				4F21D60B13A4E25900FD7C35 /* TorrentManager.rb */,
+				4F21D60D13A4E27400FD7C35 /* Deluge.rb */,
 			);
 			name = Deluge;
 			sourceTree = "<group>";
@@ -233,10 +242,13 @@
 				4F32D68813A2E06F001129F7 /* ConnectionManager.rb in Resources */,
 				4F32D68C13A2E1B9001129F7 /* connection_configuration_view.rb in Resources */,
 				4F32D69713A3DD2C001129F7 /* menu_view.rb in Resources */,
-				4F21D5F813A4D35A00FD7C35 /* Deluge.rb in Resources */,
 				4F21D5FA13A4D47300FD7C35 /* Exception.rb in Resources */,
-				4F21D5FC13A4D4B000FD7C35 /* Connection.rb in Resources */,
 				4F21D5FE13A4D93800FD7C35 /* state.rb in Resources */,
+				4F21D60413A4E09200FD7C35 /* Connection.rb in Resources */,
+				4F21D60613A4E13F00FD7C35 /* Torrent.rb in Resources */,
+				4F21D60A13A4E23600FD7C35 /* DelugeConnectionManager.rb in Resources */,
+				4F21D60C13A4E25900FD7C35 /* TorrentManager.rb in Resources */,
+				4F21D60E13A4E27400FD7C35 /* Deluge.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
