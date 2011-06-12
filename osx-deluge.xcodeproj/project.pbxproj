@@ -10,6 +10,7 @@
 		4F16C22513A2D40300A288C7 /* ConfigurationController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F16C22413A2D40300A288C7 /* ConfigurationController.rb */; };
 		4F32D68813A2E06F001129F7 /* ConnectionManager.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F32D68713A2E06F001129F7 /* ConnectionManager.rb */; };
 		4F32D68C13A2E1B9001129F7 /* connection_configuration_view.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F32D68B13A2E1B9001129F7 /* connection_configuration_view.rb */; };
+		4F32D69713A3DD2C001129F7 /* menu_view.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4F32D69613A3DD2C001129F7 /* menu_view.rb */; };
 		4F9A9903139F7FEE00629C53 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9A9902139F7FEE00629C53 /* Cocoa.framework */; };
 		4F9A9905139F7FEE00629C53 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9A9904139F7FEE00629C53 /* MacRuby.framework */; };
 		4F9A990C139F7FEE00629C53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F9A990A139F7FEE00629C53 /* InfoPlist.strings */; };
@@ -25,6 +26,7 @@
 		4F16C22413A2D40300A288C7 /* ConfigurationController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ConfigurationController.rb; sourceTree = "<group>"; };
 		4F32D68713A2E06F001129F7 /* ConnectionManager.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ConnectionManager.rb; sourceTree = "<group>"; };
 		4F32D68B13A2E1B9001129F7 /* connection_configuration_view.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = connection_configuration_view.rb; sourceTree = "<group>"; };
+		4F32D69613A3DD2C001129F7 /* menu_view.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = menu_view.rb; sourceTree = "<group>"; };
 		4F9A98FE139F7FEE00629C53 /* osx-deluge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "osx-deluge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9A9902139F7FEE00629C53 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4F9A9904139F7FEE00629C53 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
@@ -56,8 +58,16 @@
 			isa = PBXGroup;
 			children = (
 				4F32D68B13A2E1B9001129F7 /* connection_configuration_view.rb */,
+				4F32D69613A3DD2C001129F7 /* menu_view.rb */,
 			);
 			name = views;
+			sourceTree = "<group>";
+		};
+		4F32D68D13A3BC51001129F7 /* Deluge */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Deluge;
 			sourceTree = "<group>";
 		};
 		4F9A98F3139F7FEE00629C53 = {
@@ -89,6 +99,7 @@
 		4F9A9907139F7FEE00629C53 /* osx-deluge */ = {
 			isa = PBXGroup;
 			children = (
+				4F32D68D13A3BC51001129F7 /* Deluge */,
 				4F32D68A13A2E19E001129F7 /* views */,
 				4F9A9917139F7FEE00629C53 /* AppDelegate.rb */,
 				4F16C22413A2D40300A288C7 /* ConfigurationController.rb */,
@@ -204,6 +215,7 @@
 				4F16C22513A2D40300A288C7 /* ConfigurationController.rb in Resources */,
 				4F32D68813A2E06F001129F7 /* ConnectionManager.rb in Resources */,
 				4F32D68C13A2E1B9001129F7 /* connection_configuration_view.rb in Resources */,
+				4F32D69713A3DD2C001129F7 /* menu_view.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,4 +8,5 @@
 
 class ConnectionConfigurationView < NSView
   attr_accessor :status_label
+  attr_accessor :address, :port, :password
 end

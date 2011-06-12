@@ -8,7 +8,7 @@
 
 class AppDelegate < NSWindowController
   # Delegate attrs
-  attr_accessor :window, :actual_window
+  attr_accessor :window, :actual_window, :menu_view
   # Controllers
   attr_accessor :configuration_controller
   # Props
@@ -18,7 +18,7 @@ class AppDelegate < NSWindowController
     # Wut?
     @actual_window = window.window
     # Set the toolbar
-    set_bottom_toolbar
+    set_window_style
     
     @connection_manager = ConnectionManager.new
     
@@ -32,8 +32,10 @@ class AppDelegate < NSWindowController
   end
   
   protected
-  def set_bottom_toolbar
-    actual_window.setContentBorderThickness 23.0, forEdge:NSMinYEdge
+  def set_window_style
+    
+    
+    actual_window.setContentBorderThickness 50.0, forEdge:NSMinYEdge
   end
 end
 

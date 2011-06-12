@@ -7,7 +7,11 @@
 #
 
 class ConnectionManager
-  def test_connection
-    rand(2) == 1
+  def test_connection address, port, password
+    params = {:method => "auth.login", :params => [password], :id => "3284"}
+    response_string = RestClient.post "#{address}:#{port}/json", params.to_json, :content_type => :json, :accept => :json
+    response = JSON.parse(response_string)
+    
+    response["result"]
   end
 end
