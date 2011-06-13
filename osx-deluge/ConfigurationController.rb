@@ -10,7 +10,7 @@
 class ConfigurationController < NSWindowController
   attr_accessor :server_view, :general_view
   
-  attr_accessor :connection_manager
+  attr_accessor :connection_controller
   
   def init
     if super
@@ -32,8 +32,10 @@ class ConfigurationController < NSWindowController
   
   def test_connection sender
     # Test connection
-    if connection_manager.test_connection server_view.address.stringValue,
-      server_view.port.stringValue, server_view.password.stringValue
+    connection = connection_controller.create server_view.address.stringValue,
+      server_view.port.stringValue, "3284", server_view.password.stringValue
+    
+    if connection.success?
       status = "Connection accepted"
     else 
       status = "Connection refused"

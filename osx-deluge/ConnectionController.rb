@@ -7,7 +7,7 @@
 #
 
 module Deluge
-  class DelugeConnectionManager
+  class ConnectionController
     attr_accessor :connections
     
     def initialize
@@ -20,13 +20,14 @@ module Deluge
     
     # New connection
     def create server, port, user_id, password
-      connection = DelugeConnection.new server, port, user_id, password
-      connection.connect!
+      connection = Connection.new server, port, user_id, password
+      begin
+        connection.connect!
       
-      if !@connection.success?
-        raise Authentication "Unable to authenticate"
-        else
-        @connections << connection
+        if connection.success?
+          @connections << connection
+        end
+      rescue URI::InvalidURIError
       end
       
       connection

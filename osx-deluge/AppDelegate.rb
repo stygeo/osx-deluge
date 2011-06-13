@@ -20,10 +20,10 @@ class AppDelegate < NSWindowController
     # Set the toolbar
     set_window_style
     
-    @connection_manager = ConnectionManager.new
+    @connection_controller = Deluge::ConnectionController.new
     
     @configuration_controller = ConfigurationController.new
-    @configuration_controller.connection_manager = @connection_manager
+    @configuration_controller.connection_controller = @connection_controller
   end
   
   def load_configuration sender

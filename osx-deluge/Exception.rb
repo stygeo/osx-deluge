@@ -8,6 +8,6 @@
 
 module Deluge
   # Base exception
-  class DelugeException < Exception; end
-  class Authentication < DelugeException; end
+  class Exception < ::Exception; end
+  class Authentication < Exception; end
 end

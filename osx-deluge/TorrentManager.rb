@@ -7,7 +7,7 @@
 #
 
 module Deluge
-  class DelugeTorrentManager
+  class TorrentController
 
   end
 end
